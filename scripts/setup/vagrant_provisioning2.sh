@@ -31,6 +31,7 @@ pip install --upgrade pip
 pip install -e /vagrant/django
 
 # Initialize pip with requirements
+pip install numpy==1.17.1
 pip install -r scripts/setup/requirements.txt
 
 # Install basemap separately
